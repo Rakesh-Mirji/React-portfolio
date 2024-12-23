@@ -7,4 +7,4 @@ export default function AudioComponent(){
         <AudioPlayer src={audioSrc}/>
     </div>
     )
-}r
+}
