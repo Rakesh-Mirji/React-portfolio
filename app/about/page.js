@@ -2,7 +2,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Profile from '../../public/img1.png'
+// import Profile from '../../public/img1.png'
+import Profile from '../../public/me1.png'
 import Navigator from "../components/navigatior";
 import Bar from "../../public/Bar.svg"
 import { skills } from "@/public/data/projectData";

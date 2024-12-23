@@ -67,7 +67,7 @@ export const ProjectList = [
         images:[mybio4,mybio1,mybio2,mybio3],
         stack: ["NextJs", "NodeJs", "CapacitorJs", "ExpressJs", "Mysql", "Redis", "Git"],
         content:`My Biobackup is a Personal Health Record(PHR) app that helps you to store & manage your health 
-        reports and body vitals. With Eka care you can add lab reports, body vitals such as Blood Pressure(BP), 
+        reports and body vitals. With this you can add lab reports, body vitals such as Blood Pressure(BP), 
         Blood sugar level & more. I was entrusted with developing front-end using NextJS & Tailwind CSS
         Our team implemented S3 bucket for scalable storage of test report has also been
         implemented. for this application Azile managment system has been
