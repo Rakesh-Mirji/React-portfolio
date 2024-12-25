@@ -1,6 +1,7 @@
 import Image from 'next/image'
 // import Profile from '../../public/IMG_20230701_152513-removebg-preview.png'
 import Profile from '../../public/me2.png'
+// import Profile from '../../public/home_svg.svg'
 import Navigator from './navigatior'
 export default function Home(){
     const urls = [

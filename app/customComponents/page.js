@@ -44,11 +44,11 @@ export default function CustomComponent(){
                 </div>
             </div>
         </div>
-        <div className="p-2 lg:flex gap-10">
-            <div className="lg:w-[50vw]">
+        <div className="p-2 lg:flex gap-10 justify-around">
+            <div className="lg:w-[45vw]">
                 <Detail data={bmiComp}/>
             </div>
-            <div className="-mx-8 lg:w-[50vw] ">
+            <div className="-mx-8 lg:w-[40vw] ">
                 <BMI/>
             </div>
         </div>

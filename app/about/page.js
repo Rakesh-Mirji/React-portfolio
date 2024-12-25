@@ -3,7 +3,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 // import Profile from '../../public/img1.png'
-import Profile from '../../public/me1.png'
+// import Profile from '../../public/me1.png'
+import Profile from '../../public/home_svg.svg'
 import Navigator from "../components/navigatior";
 import Bar from "../../public/Bar.svg"
 import { skills } from "@/public/data/projectData";
@@ -33,7 +34,7 @@ export default function About(){
     <div className="flex justify-center">
     <Navigator page={"/about"}/>
     </div>
-    <div className=" max-md:!block flex items-center justify-around">
+    <div className="py-10 max-md:!block flex items-center justify-around">
         {/* <Image src={Bar} className="max-md:hidden"/> */}
         <Image src={Profile} width={400} height={100} alt='profile' className=" object-contain"/>
         <div className="hover:bg-black/30 group backdrop-blur-sm bg-black/20 max-md:!border-transparent max-md:w-[95vw] text-2xl p-10 w-[40vw] text-justify rounded-[20px] transition duration-400 border-4 border-[#244f75] border-r-[#1eb2d2] border-b-[#1eb2d2] hover:border-[#1b2a36]">
