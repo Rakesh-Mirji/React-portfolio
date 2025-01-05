@@ -15,6 +15,7 @@ import mybio1 from '../mybio1.png'
 import mybio2 from '../mybio2.png'
 import mybio3 from '../mybio3.png'
 import mybio4 from '../mybio4.png'
+import sam from '../sam.png'
 
 // Project Page
 export const ProjectList = [
@@ -49,7 +50,7 @@ export const ProjectList = [
         link:"https://samarthmeditech.com",
         name:"Asset Management",
         images:[asset],
-        stack: ["NextJs", "GoLang", "Mysql", "Redis", "Git", "Docker"],
+        stack: ["MaterialUI", "GoLang", "Mysql", "Redis", "Git", "Docker"],
         content:`Asset management is a software solution for assigning, maintaining, transporting, tracking and 
         disposing of organization assets in the most cost-effective manner.
         I was enterested with developing the back-end(GoLang) and Database. 
@@ -70,6 +71,23 @@ export const ProjectList = [
         reports and body vitals. With this you can add lab reports, body vitals such as Blood Pressure(BP), 
         Blood sugar level & more. I was entrusted with developing front-end using NextJS & Tailwind CSS
         Our team implemented S3 bucket for scalable storage of test report has also been
+        implemented. for this application Azile managment system has been
+        managed.`
+    },
+    {
+        // link:"https://samarthmeditech.com",
+        name:"Samanvaya",
+        images:[sam],
+        stack: ["MaterialUI", "GoLang", "Mysql", "Redis", "Git", "Docker"],
+        content:`Samanvaya is a MRD software solution for assigning, maintaining, tracking 
+        patient records in the most cost-effective manner. Its a streamlined solution to 
+        keep medical data secure and available to your fingure tips. 
+        I was enterested with developing the back-end(GoLang) and Database. 
+        Material UI and CSS have been used to create a user
+        interface. On the Devops side, to deploy backend i was managing AWS
+        services like EC2 for computing resources, RDS for database management,
+        Caddy Server for web serving (which automatically implements HTTPS at no
+        SSL certificate cost). S3 bucket for scalable storage has also been
         implemented. for this application Azile managment system has been
         managed.`
     },
