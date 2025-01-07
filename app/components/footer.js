@@ -10,7 +10,7 @@ export default function Footer(){
         state:"Karnataka"
     }
     const name =`Rakesh Mirji`
-    const about =`I am a Software Engineer from Hubbali, Karnataka, specializing in creating web applications with unique designs and excellent performance.`
+    const about =`I am a Software Engineer from Hubballi, Karnataka, specializing in creating web applications with unique designs and excellent performance.`
 
     const[project, setProject] = useState(true)
 

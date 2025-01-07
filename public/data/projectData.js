@@ -15,7 +15,7 @@ import mybio1 from '../mybio1.png'
 import mybio2 from '../mybio2.png'
 import mybio3 from '../mybio3.png'
 import mybio4 from '../mybio4.png'
-import sam from '../sam.png'
+import sam1 from '../sam.png'
 
 // Project Page
 export const ProjectList = [
@@ -23,7 +23,7 @@ export const ProjectList = [
         link:"https://www.ayuci.com/",
         name:"AYUCI",
         images:[ayuci1],
-        stack: ["MaterialUI", "ReactJs", "GoLang", "Mysql", "Redis", "Git", "Docker"],
+        stack: ["MaterialUI", "ReactJs", "GoLang", "MySQL", "Redis", "Git", "Docker"],
         content:`AYUCI is a hospital management  software solution, built entirely on the innovative SaaS platform.
         I was enterested with developing the back-end(GoLang) and Database. 
         Material UI and CSS have been used to create a user
@@ -38,7 +38,7 @@ export const ProjectList = [
         link:"https://mysmartshala.com",
         name:"My Smartshala",
         images:[smart],
-        stack: ["NextJs", "GoLang", "Mysql", "Redis", "Git", "Docker"],
+        stack: ["NextJs", "GoLang", "MySQL", "Redis", "Git", "Docker"],
         content:`My Smartshala is a ERP, built entirely on the innovative SaaS platform.
         I was enterested with developing the front-end. 
         Material UI and CSS have been used to create a user
@@ -47,11 +47,11 @@ export const ProjectList = [
         managed.`
     },
     {
-        link:"https://samarthmeditech.com",
-        name:"Asset Management",
+        link:"https://samarthmeditech.com/products/a765/",
+        name:"Robusto",
         images:[asset],
-        stack: ["MaterialUI", "GoLang", "Mysql", "Redis", "Git", "Docker"],
-        content:`Asset management is a software solution for assigning, maintaining, transporting, tracking and 
+        stack: ["MaterialUI", "GoLang", "MySQL", "Redis", "Git", "Docker"],
+        content:`Robusto is a software solution for assigning, maintaining, transporting, tracking and 
         disposing of organization assets in the most cost-effective manner.
         I was enterested with developing the back-end(GoLang) and Database. 
         Material UI and CSS have been used to create a user
@@ -66,7 +66,7 @@ export const ProjectList = [
         link:"https://apps.apple.com/in/app/mybiobackup/id6459410069",
         name:"My Biobackup",
         images:[mybio4,mybio1,mybio2,mybio3],
-        stack: ["NextJs", "NodeJs", "CapacitorJs", "ExpressJs", "Mysql", "Redis", "Git"],
+        stack: ["NextJs", "NodeJs", "CapacitorJs", "ExpressJs", "MySQL", "Redis", "Git"],
         content:`My Biobackup is a Personal Health Record(PHR) app that helps you to store & manage your health 
         reports and body vitals. With this you can add lab reports, body vitals such as Blood Pressure(BP), 
         Blood sugar level & more. I was entrusted with developing front-end using NextJS & Tailwind CSS
@@ -77,8 +77,8 @@ export const ProjectList = [
     {
         // link:"https://samarthmeditech.com",
         name:"Samanvaya",
-        images:[sam],
-        stack: ["MaterialUI", "GoLang", "Mysql", "Redis", "Git", "Docker"],
+        images:[sam1],
+        stack: ["MaterialUI", "GoLang", "MySQL", "Redis", "Git", "Docker"],
         content:`Samanvaya is a MRD software solution for assigning, maintaining, tracking 
         patient records in the most cost-effective manner. Its a streamlined solution to 
         keep medical data secure and available to your fingure tips. 
@@ -201,6 +201,7 @@ export const skills = [
     {option:"GoLang",tag:tag1},
     {option:"SQL",tag:tag1},
 
+    {option:"AWS",tag:tag2},
     {option:"Git",tag:tag2},
     {option:"Selenium",tag:tag2}, 
     {option:"Redis",tag:tag2}, 
@@ -218,6 +219,7 @@ export const skills = [
     {option:"SQLx",tag:tag2},
     {option:"p5.js",tag:tag2}, 
     {option:"Pandas",tag:tag2},
+    {option:"NumPy",tag:tag2},
     {option:"TailwindCSS",tag:tag2}, 
 
     {option:"Windows",tag:tag3},
