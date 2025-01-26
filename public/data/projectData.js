@@ -26,7 +26,7 @@ export const ProjectList = [
             // ayuci1
         ],
         stack: ["MaterialUI", "ReactJs", "GoLang", "MySQL", "Redis", "Git", "Docker"],
-        content:`AYUCI is a hospital management  software solution, built entirely on the innovative SaaS platform.
+        content:`HealthCare Management System, built entirely on the innovative SaaS platform.
         I was enterested with developing the back-end(GoLang) and Database. 
         Material UI and CSS have been used to create a user
         interface. On the Devops side, to deploy backend i was managing AWS
