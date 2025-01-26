@@ -20,8 +20,8 @@ import sam1 from '../sam.png'
 // Project Page
 export const ProjectList = [
     {
-        link:"https://www.ayuci.com/",
-        name:"AYUCI",
+        // link:"https://www.ayuci.com/",
+        name:" HealthCare Management System",
         images:[ayuci1],
         stack: ["MaterialUI", "ReactJs", "GoLang", "MySQL", "Redis", "Git", "Docker"],
         content:`AYUCI is a hospital management  software solution, built entirely on the innovative SaaS platform.
@@ -47,7 +47,7 @@ export const ProjectList = [
         managed.`
     },
     {
-        link:"https://samarthmeditech.com/products/a765/",
+        // link:"https://samarthmeditech.com/products/a765/",
         name:"Robusto",
         images:[asset],
         stack: ["MaterialUI", "GoLang", "MySQL", "Redis", "Git", "Docker"],

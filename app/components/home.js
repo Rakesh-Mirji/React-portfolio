@@ -17,6 +17,10 @@ export default function Home(){
             link:"https://www.medium.com/@rakeshmirji",
             name:"Medium"
         },
+        {
+          link:"https://leetcode.com/u/rakeshmirji/",
+          name:"LeetCode"
+        },
     ]
 
     return(
