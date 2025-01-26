@@ -16,7 +16,7 @@ export default function List({data,index}){
 
 
                 <div className="w-[40vw] max-sm:w-[80vw] flex items-center">
-                    <div className="max-sm:max-h-[300px] overflow-scroll text-white hover:bg-black/40 transition-all hover:shadow-xl backdrop-blur-sm bg-black/20 p-5 rounded-xl text-xl text-gray-800 text-justify font-medium">
+                    <div className="max-sm:max-h-[300px] overflow-auto text-white hover:bg-black/40 transition-all hover:shadow-xl backdrop-blur-sm bg-black/20 p-5 rounded-xl text-xl text-gray-800 text-justify font-medium">
                         <p className="text-2xl py-5 font-semibold">
                             {data.link ?
                             <a className="underline hover:text-violet-300" href={data.link}>
