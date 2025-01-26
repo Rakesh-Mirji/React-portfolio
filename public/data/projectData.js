@@ -21,8 +21,10 @@ import sam1 from '../sam.png'
 export const ProjectList = [
     {
         // link:"https://www.ayuci.com/",
-        name:" HealthCare Management System",
-        images:[ayuci1],
+        name:"HealthCare Management System",
+        images:[
+            // ayuci1
+        ],
         stack: ["MaterialUI", "ReactJs", "GoLang", "MySQL", "Redis", "Git", "Docker"],
         content:`AYUCI is a hospital management  software solution, built entirely on the innovative SaaS platform.
         I was enterested with developing the back-end(GoLang) and Database. 
@@ -35,21 +37,11 @@ export const ProjectList = [
         managed.`
     },
     {
-        link:"https://mysmartshala.com",
-        name:"My Smartshala",
-        images:[smart],
-        stack: ["NextJs", "GoLang", "MySQL", "Redis", "Git", "Docker"],
-        content:`My Smartshala is a ERP, built entirely on the innovative SaaS platform.
-        I was enterested with developing the front-end. 
-        Material UI and CSS have been used to create a user
-        interface. S3 bucket for scalable storage of test report has also been
-        implemented. for this application Azile managment system has been
-        managed.`
-    },
-    {
         // link:"https://samarthmeditech.com/products/a765/",
         name:"Robusto",
-        images:[asset],
+        images:[
+            // asset
+        ],
         stack: ["MaterialUI", "GoLang", "MySQL", "Redis", "Git", "Docker"],
         content:`Robusto is a software solution for assigning, maintaining, transporting, tracking and 
         disposing of organization assets in the most cost-effective manner.
@@ -63,21 +55,11 @@ export const ProjectList = [
         managed.`
     },
     {
-        link:"https://apps.apple.com/in/app/mybiobackup/id6459410069",
-        name:"My Biobackup",
-        images:[mybio4,mybio1,mybio2,mybio3],
-        stack: ["NextJs", "NodeJs", "CapacitorJs", "ExpressJs", "MySQL", "Redis", "Git"],
-        content:`My Biobackup is a Personal Health Record(PHR) app that helps you to store & manage your health 
-        reports and body vitals. With this you can add lab reports, body vitals such as Blood Pressure(BP), 
-        Blood sugar level & more. I was entrusted with developing front-end using NextJS & Tailwind CSS
-        Our team implemented S3 bucket for scalable storage of test report has also been
-        implemented. for this application Azile managment system has been
-        managed.`
-    },
-    {
         // link:"https://samarthmeditech.com",
         name:"Samanvaya",
-        images:[sam1],
+        images:[
+            // sam1
+        ],
         stack: ["MaterialUI", "GoLang", "MySQL", "Redis", "Git", "Docker"],
         content:`Samanvaya is a MRD software solution for assigning, maintaining, tracking 
         patient records in the most cost-effective manner. Its a streamlined solution to 
@@ -88,6 +70,32 @@ export const ProjectList = [
         services like EC2 for computing resources, RDS for database management,
         Caddy Server for web serving (which automatically implements HTTPS at no
         SSL certificate cost). S3 bucket for scalable storage has also been
+        implemented. for this application Azile managment system has been
+        managed.`
+    },
+    {
+        link:"https://mysmartshala.com",
+        name:"My Smartshala",
+        images:[
+            smart
+        ],
+        stack: ["NextJs", "GoLang", "MySQL", "Redis", "Git", "Docker"],
+        content:`My Smartshala is a ERP, built entirely on the innovative SaaS platform.
+        I was enterested with developing the front-end. 
+        Material UI and CSS have been used to create a user
+        interface. S3 bucket for scalable storage of test report has also been
+        implemented. for this application Azile managment system has been
+        managed.`
+    },
+    {
+        link:"https://apps.apple.com/in/app/mybiobackup/id6459410069",
+        name:"My Biobackup",
+        images:[mybio4,mybio1,mybio2,mybio3],
+        stack: ["NextJs", "NodeJs", "CapacitorJs", "ExpressJs", "MySQL", "Redis", "Git"],
+        content:`My Biobackup is a Personal Health Record(PHR) app that helps you to store & manage your health 
+        reports and body vitals. With this you can add lab reports, body vitals such as Blood Pressure(BP), 
+        Blood sugar level & more. I was entrusted with developing front-end using NextJS & Tailwind CSS
+        Our team implemented S3 bucket for scalable storage of test report has also been
         implemented. for this application Azile managment system has been
         managed.`
     },
