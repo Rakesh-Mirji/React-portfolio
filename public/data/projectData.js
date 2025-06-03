@@ -7,6 +7,9 @@ import pet2 from '../pet1.png'
 import dng1 from '../dng2.png'
 import dng2 from '../dng1.png'
 import shg from '../shg.png'
+import seva1 from '../seva1.png'
+import seva2 from '../seva2.png'
+import seva3 from '../seva3.png'
 import ayuci1 from '../ayuci1.png'
 import ayuci2 from '../ayuci2.png'
 import smart from '../smart1.png'
@@ -20,10 +23,25 @@ import sam1 from '../sam.png'
 // Project Page
 export const ProjectList = [
     {
-        // link:"https://www.ayuci.com/",
+        link:"https://sevas360.com/",
+        name:"Temple Management System",
+        images:[
+            seva1
+        ],
+        stack: ["MaterialUI", "ReactJs", "GoLang", "MySQL", "Git", "Docker"],
+        content:`I contributed to the development of a SaaS-based Temple Management System, 
+        focusing on backend development using GoLang and managing the PostgreSQL database hosted on AWS RDS. 
+        The frontend was built using Material UI and CSS to ensure a responsive and intuitive user experience. 
+        On the DevOps side, I handled deployment using AWS EC2 for compute resources and Caddy Server for secure 
+        HTTPS web serving with automated SSL certificates. I also integrated AWS S3 for scalable file storage. 
+        Additionally, I implemented and managed an Azile Management module to streamline temple operations 
+        and resident scheduling within the application.`
+    },
+    {
+        link:"https://www.ayuci.com/",
         name:"HealthCare Management System",
         images:[
-            // ayuci1
+            ayuci1
         ],
         stack: ["MaterialUI", "ReactJs", "GoLang", "MySQL", "Redis", "Git", "Docker"],
         content:`HealthCare Management System, built entirely on the innovative SaaS platform.
@@ -37,15 +55,15 @@ export const ProjectList = [
         managed.`
     },
     {
-        // link:"https://samarthmeditech.com/products/a765/",
+        link:"https://samarthmeditech.com/products/a765/",
         name:"Robusto",
         images:[
-            // asset
+            asset
         ],
-        stack: ["MaterialUI", "GoLang", "MySQL", "Redis", "Git", "Docker"],
+        stack: ["MaterialUI", "Java", "MySQL", "Redis", "Git", "Docker"],
         content:`Robusto is a software solution for assigning, maintaining, transporting, tracking and 
         disposing of organization assets in the most cost-effective manner.
-        I was enterested with developing the back-end(GoLang) and Database. 
+        I was enterested with developing the back-end(Java) and Database. 
         Material UI and CSS have been used to create a user
         interface. On the Devops side, to deploy backend i was managing AWS
         services like EC2 for computing resources, RDS for database management,
@@ -55,16 +73,16 @@ export const ProjectList = [
         managed.`
     },
     {
-        // link:"https://samarthmeditech.com",
+        link:"https://samarthmeditech.com",
         name:"Samanvaya",
         images:[
-            // sam1
+            sam1
         ],
-        stack: ["MaterialUI", "GoLang", "MySQL", "Redis", "Git", "Docker"],
+        stack: ["MaterialUI", "Java", "MySQL", "Redis", "Git", "Docker"],
         content:`Samanvaya is a MRD software solution for assigning, maintaining, tracking 
         patient records in the most cost-effective manner. Its a streamlined solution to 
         keep medical data secure and available to your fingure tips. 
-        I was enterested with developing the back-end(GoLang) and Database. 
+        I was enterested with developing the back-end(Java) and Database. 
         Material UI and CSS have been used to create a user
         interface. On the Devops side, to deploy backend i was managing AWS
         services like EC2 for computing resources, RDS for database management,
@@ -206,6 +224,7 @@ const tag3 = 'Operating System'
 export const skills = [
     {option:"JavaScript",tag:tag1},
     {option:"Python",tag:tag1},
+    {option:"Java",tag:tag1},
     {option:"GoLang",tag:tag1},
     {option:"SQL",tag:tag1},
 
