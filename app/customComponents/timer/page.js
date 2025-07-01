@@ -6,7 +6,7 @@ const Clock = () => {
   const [time, setTime] = useState({ hours: 0, minutes: 0, seconds: 0 });
   const [start, setStart] = useState(false);
 
-  const alarmTimes = [13, 26, 34, 42, 47, 52, 55, 58, 60, 62, 63, 64]; // Times to trigger the alarm and show toasts
+  const alarmTimes = {13:13, 26:13, 34:8, 42:8, 47:5, 52:5, 55:3, 58:3, 60:2, 62:2, 63:1, 64:1}; // Times to trigger the alarm and show toasts
   const [firstToastTimes, setFirstToastTimes] = useState(new Set()); // Track first toast times for each value
   const [secondToastTimes, setSecondToastTimes] = useState(new Set()); // Track second toast times for each value
 
@@ -18,7 +18,7 @@ const Clock = () => {
     const toast = document.createElement('div');
     toast.innerText = message;
     toast.style.position = 'fixed';
-    toast.style.bottom = '20px';
+    toast.style.top = '50px';
     toast.style.left = '50%';
     toast.style.transform = 'translateX(-50%)';
     toast.style.padding = '10px 20px';
@@ -67,12 +67,13 @@ const Clock = () => {
 
   useEffect(() => {
     if (isClient) {
-      alarmTimes.forEach((timeValue) => {
+      Object.keys(alarmTimes).map(elem => parseInt(elem)).forEach((timeValue) => {
         const totalSeconds = time.seconds + time.minutes * 60;
+        // console.log(timeValue);
         
         if (totalSeconds === timeValue && !firstToastTimes.has(timeValue)) {
           // First toast for this time value
-          showToast(`First ${timeValue} at ${totalSeconds} seconds!`);
+          showToast(`First ${alarmTimes[timeValue]} at ${totalSeconds} seconds!`);
           setFirstToastTimes(prev => new Set(prev).add(timeValue));
 
           // Trigger the alarm sound
@@ -85,7 +86,7 @@ const Clock = () => {
           // Set for second toast
           setTimeout(() => {
             if (!secondToastTimes.has(timeValue)) {
-              showToast(`Second ${timeValue} at ${totalSeconds + 1} seconds!`);
+              showToast(`Second ${alarmTimes[timeValue]} at ${totalSeconds + 1} seconds!`);
               setSecondToastTimes(prev => new Set(prev).add(timeValue));
             }
           }, 1000); // Adding 1 second delay for second toast
